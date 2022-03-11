@@ -77,10 +77,28 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
-        <footer>
+        <footer style="width: 80%; margin: 0 auto;">
             <section>
-                <h1>How does JavaScript work?</h1>
-                <p>JavaScript is a scripting language. It enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. Many most modern web browsers.support JavaScript and have their JavaScript engines. For example, Google Chrome has its own JavaScript engine called V8. It totally depends on the web-developers how they use JavaScript and for what, because it can be used for several things in web development. </p>
+                <h3>How does JavaScript work?</h3>
+                <p>JavaScript is a scripting language.It is interpreter and single thread language. It enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. Many most modern web browsers support JavaScript and have their JavaScript engines. For example, Google Chrome has its own JavaScript engine called V8. It totally depends on the web-developers how they use JavaScript and for what, because it can be used for several things in web development. </p>
+                <p>V8 engine is Google's open source high-performance JavaScript and WebAssembly engine. It written in C++. It is used in Chrome, Node.js and among others. V8 engine works in javascript three steps involved in processing the code. <b>(i)Parsing the code (ii)Compiling the code (iii) Executing the code</b>. V8 also has an optimizing compiler <b>jit(just in time) Compiler</b> that produces machine code. when it runs.</p>
+
+                <h3>Difference among localStorage and sessionStorage?</h3>
+                <div style="display: flex; justify-content: space-between">
+                    <div style="border: 2px solid gray; padding: 5px; width: 50%">
+                        <p>Local storage size is 10mb.</p>
+                        <p>Does not work for specific tabs.</p>
+                        <p>Data remains after closing browser</p>
+                        <p>The data has to be deleted manually </p>
+                    </div>
+    
+                    <div style="border: 2px solid gray; padding: 5px; width: 50%">
+                        <p>Session storage size is 5mb</p>
+                        <p>Works for specific tabs</p>
+                        <p>Data doesn't remain after closing browser</p>
+                        <p>The data has to be deleted manually or tab close or browser close</p>
+                    </div>
+                </div>
             </section>
         </footer>
 
